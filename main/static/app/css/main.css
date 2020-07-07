@@ -179,6 +179,11 @@
      text-align:center;
      display:table;
 }
+
+ .skills {
+
+ }
+
  .header-video {
      position:relative;
      overflow:hidden;
@@ -505,6 +510,12 @@
      flex-wrap:wrap;
      justify-content:space-between;
 }
+
+ svg {
+     height: 100px;
+     margin: 30px;
+ }
+
  .portfolio-intro .section{
      flex:1;
      flex-basis:360px;

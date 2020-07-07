@@ -26,7 +26,8 @@ SECRET_KEY = '^lecwsebe4=y+n0tcqr8&q=j-aeof&2q12od-*lhyr(21)a_@v'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'www.elkbranch.io'
+    'www.elkbranch.io',
+    '127.0.0.1'
 ]
 
 
