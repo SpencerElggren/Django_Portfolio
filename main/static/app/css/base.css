@@ -307,7 +307,7 @@
 }
  .footer-content::before {
      content:"";
-     background: -webkit-linear-gradient(left, rgba(250, 0, 1, 1) 0%, rgba(233,195,36,0.938813025210084) 0%, rgba(246,4,25,1) 100%);
+     background: -webkit-linear-gradient(left, rgb(22,223,137) 0%, rgb(85,192,251) 100%);
      display: block;
      height:5px;
      width: 88%;
