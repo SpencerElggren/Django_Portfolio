@@ -3,28 +3,28 @@
 {% load compress %}
 
 <!--[if IE 8 ]>
-        <html class="no-js oldie ie8" lang="en"> <![endif] -->
+<html class="no-js oldie ie8" lang="en"> <![endif] -->
 <!-- [if IE 9 ]>
-        <html class="no-js oldie ie9" lang="en"><![endif] -->
+<html class="no-js oldie ie9" lang="en"><![endif] -->
 <!--[if (gte IE 9) | !(IE)]><!-->
 <html lang="en"> <!--<![endif] -->
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}Richard Ndemo{%  endblock %}</title>
+    <title>{% block title %}Spencer Elggren{%  endblock %}</title>
     <meta name="robots" content="follow, all" />
     <meta name="description" content="Information Technologist">
-     <meta name="keywords" content="{% block meta-keywords %}django,richard ndemo, ndemo richard, onyancha richard, ndemo richard onyancha,onyancha ndemo richard{% endblock meta-keywords %}" />
-    <meta name="author" content="ndemorich@gmail.com">
+     <meta name="keywords" content="{% block meta-keywords %}django,{% endblock meta-keywords %}" />
+    <meta name="author" content="elggren.spencer@gmail.com">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes"/>
 
     <! --favicon
     ==================================================================================-->
-    <link rel="icon" type="image/png" href="{% static 'app/favis/favicon.ico' %}">
-    <link rel="apple-touch-icon" size="60x60" href="{% static 'app/favis/apple-icon-60x60.png' %}">
-    <link rel="icon" size="192x192" href="{% static 'app/favis/android-icon-192x192.png' %}">
-    <link rel="icon" size="32x32" href="{%  static 'app/favis/favicon-32x32.png' %}">
-    <meta name="msapplication-TileColor" content="{%   static 'app/favis/ms-icon-144x144.png' %}">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" href="{% static 'app/favis/favicon.jpg' %}">
+{#    <link rel="apple-touch-icon" size="60x60" href="{% static 'app/favis/apple-icon-60x60.png' %}">#}
+{#    <link rel="icon" size="192x192" href="{% static 'app/favis/android-icon-192x192.png' %}">#}
+{#    <link rel="icon" size="32x32" href="{%  static 'app/favis/favicon.jpg' %}">#}
+{#    <meta name="msapplication-TileColor" content="{%   static 'app/favis/ms-icon-144x144.png' %}">#}
+{#    <meta name="theme-color" content="#ffffff">#}
 
     <! --CSS
     ======================================================================================-->
@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="{% static 'app/css/materialize.css' %}">
     <link rel="stylesheet" href="{% static 'app/css/vendor.css' %}">
     <link rel="stylesheet" href="{% static 'app/css/lity.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
     {% endcompress %}
 
 </head>
