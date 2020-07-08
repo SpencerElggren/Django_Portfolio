@@ -20,6 +20,25 @@
      line-height: 1.355;
      letter-spacing: -.1rem;
 }
+
+ .header-video {
+     position: relative;
+     text-align: center;
+ }
+
+ .intro video {
+     position: absolute;
+     text-align: center;
+     width: 100%;
+ }
+
+ .row_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
  @media only screen and (max-width:600px) {
      h1, .h01 {
          font-size: 2.6rem;
@@ -168,13 +187,10 @@
      height: 0;
 }
  #intro {
-     background:#100e17;
      -webkit-background-size:cover;
      -moz-background-size:cover;
      background-size:cover;
      background-attachment:fixed;
-     width:100%;
-     height:100%;
      position:relative;
      text-align:center;
      display:table;
@@ -187,7 +203,7 @@
  .header-video {
      position:relative;
      overflow:hidden;
-     display:table-cell;
+     display:contents;
      vertical-align:center;
      text-align: center;
      -webkit-transform: translateY(-2.1rem);
@@ -230,10 +246,6 @@
      height:100%;
 }
  .header-video h1 {
-     position:absolute;
-     z-index:5;
-     top:44%;
-     left:20%;
      color: #FFFFFF;
      font-family: "poppins-bold", sans-serif;
      font-size: 8.4rem;
@@ -244,16 +256,7 @@
      text-transform:uppercase;
      text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
- .header-video h5 {
-     color: #cc005f;
-     font-family: "poppins-bold", sans-serif;
-     font-size: 2.3rem;
-     line-height: 1.565;
-     margin-bottom: 0;
-     text-transform: uppercase;
-     letter-spacing: .3rem;
-     text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-}
+
  .header-video .intro-position {
      position:absolute;
      z-index:5;
@@ -285,10 +288,6 @@
      color: rgba(255, 255, 255, 0.3);
 }
  .header-video .lead{
-     position:absolute;
-     z-index:5;
-     top:64%;
-     left:30%;
      font-family:"lora-regular", sans-serif;
      font-size:1.7rem;
      line-height:2.4rem;
@@ -296,9 +295,7 @@
      color:#FFFFFF;
      text-shadow: 0 0 6px rgb(0,0,0.2);
 }
- .header-video .lead span{
-     display:inline-block;
-}
+
  .header-video__play-trigger {
      z-index: 5;
      position: absolute;
@@ -346,10 +343,6 @@
 }
  @media screen and (max-width: 1024px){
      .header-video h1 {
-         position:absolute;
-         z-index:5;
-         top:44%;
-         left:20%;
          color: #FFFFFF;
          font-family: "poppins-bold", sans-serif;
          font-size: 4rem;
@@ -759,12 +752,8 @@
 */
 /*------------------------------------------------------ * Tablet *---------------------- */
  @media screen and (max-width: 768px){
-     #intro {
-         height:50%;
-    }
+
      .header-video h1 {
-         top:54%;
-         left:26%;
          font-size: 3.5rem;
          line-height: 1.071;
          max-width: 400px;
@@ -775,8 +764,6 @@
          font-size: 1.5rem;
     }
      .header-video .lead{
-         top:68%;
-         left:5%;
          font-size:1.5rem;
          line-height:1.4rem;
     }
@@ -954,25 +941,17 @@
 }
 /*---------------------------- * large mobile device */
  @media screen and (max-width: 600px){
-     #intro {
-         height:50%;
-    }
+
      .header-video h1 {
-         top:56%;
-         left:28%;
          font-size: 1.5rem;
          line-height: 1.071;
          max-width: 400px;
     }
      .header-video .intro-position {
-         top:40%;
-         left:0%;
          font-size: 1rem;
          line-height: 1.4rem;
     }
      .header-video .lead{
-         top:68%;
-         left:5%;
          font-size:1rem;
          line-height:1.4rem;
     }
@@ -1138,8 +1117,6 @@
     }
      .header-video h1 {
          font-family:"lora-bold-italic";
-         top:50%;
-         left:30%;
          font-size: 130%;
          line-height: 1.071;
          max-width: 400px;
@@ -1153,8 +1130,6 @@
     }
      .header-video .lead{
          font-family:"poppins-light",serif;
-         top:64%;
-         left:14%;
          font-size:60%;
          line-height:1.4rem;
     }

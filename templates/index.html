@@ -9,21 +9,16 @@
 {% endcompress %}
 
 <section id="intro">
+    <video class="header-video__media lazyload" autoplay muted loop>
+        <source src="{% static 'app/video/teaser-video.mp4' %}" type="video/mp4">
+    </video>
     <div class="intro-overlay"></div>
     <div class="header-video">
-        <img data-src="{% static 'app/img/masthead.jpg' %}"
-             class="header-video__media lazyload"
-             data-video-URL="https://player.vimeo.com/video/358812209"
-             data-teaser="{% static 'app/video/teaser-video' %}"
-             data-video-width="560"
-             data-video-height="315" alt="#191919">
-        <div class="row">
-            <div class="col-twelve">
+        <div class="row_text">
                 <h1>There and Back-End Again</h1>
                 <p class="lead">
-                    <span>A Developer's Tale by Spencer Elggren</span>
+                    A Developer's Tale by Spencer Elggren
                 </p>
-        </div>
         </div>
     </div>
 </section>
