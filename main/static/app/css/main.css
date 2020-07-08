@@ -26,9 +26,13 @@
      text-align: center;
  }
 
- .intro video {
-     position: absolute;
+ #intro video {
+     position: relative;
      text-align: center;
+     width: 100%;
+ }
+
+ #intro {
      width: 100%;
  }
 
