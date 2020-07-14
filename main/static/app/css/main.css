@@ -516,10 +516,11 @@
  .portfolio-intro .section{
      flex:1;
      flex-basis:360px;
-     flex-grow:0;
      height:360px;
+     width: auto;
      background:#fff;
      border:none;
+     margin: 2rem;
      box-shadow:0px 4px 7px rgba(0,0,0,.5);
      transition:all .5s ;
      overflow:hidden;
@@ -1111,7 +1112,7 @@
 /*--------------- * small mobile device */
  @media screen and (max-width: 450px){
      #intro {
-         min-height:50%;
+         min-height:0;
     }
      .header-video img{
          min-height:400px;
