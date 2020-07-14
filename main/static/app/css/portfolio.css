@@ -711,8 +711,9 @@ textarea {
 	overflow: hidden;
 }
 #portfolio .folio-item img {
-    width:320px;
+    width:auto;
     height:320px;
+	margin: 3rem;
 	vertical-align: middle;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
